@@ -1,0 +1,21 @@
+{
+  "name": "gis-resource-finder",
+  "label": "GIS Resource Finder",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.21.0",
+  "author": "Town of Avon",
+  "description": "Searchable catalog of Town of Avon GIS data, maps, applications, dashboards, and forms.",
+  "copyright": "Town of Avon",
+  "license": "Apache-2.0",
+  "properties": {
+    "hasSettingPage": true
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 460,
+    "height": 650
+  }
+}

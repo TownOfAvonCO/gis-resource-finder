@@ -1,0 +1,20 @@
+export default {
+  _widgetLabel: 'GIS Resource Finder',
+  searchPlaceholder: 'What GIS information are you looking for?',
+  allTypes: 'All resource types',
+  allCategories: 'All categories',
+  allAccess: 'All access levels',
+  publicAccess: 'Public',
+  townAccess: 'Town sign-in required',
+  openResource: 'Open resource',
+  contactGis: 'Contact GIS for access',
+  noResults: 'No matching GIS resources were found.',
+  loading: 'Loading GIS resources…',
+  loadError: 'The GIS resource catalog could not be loaded.',
+  configure: 'Select the GIS Resource Catalog table in the widget settings.',
+  clearFilters: 'Clear search and filters',
+  includedLayers: 'Includes',
+  source: 'Source',
+  result: 'result',
+  results: 'results'
+}

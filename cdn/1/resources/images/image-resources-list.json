@@ -1,0 +1,41 @@
+{
+  "1792695807244": {
+    "originalName": "Screenshot 2026-10-22 130146.png",
+    "fileName": "1792695807244.png",
+    "size": 488125,
+    "url": "${appResourceUrl}/images/widget_3/1792695807244.png",
+    "created": 1792695807244,
+    "resourcesPrefix": "images/widget_3",
+    "referredIds": [],
+    "originId": "1792695807244",
+    "fileFormat": "image/png",
+    "originalWidth": 2648,
+    "originalHeight": 1778
+  },
+  "1792695898600": {
+    "originalName": "AGOL_Structure.png",
+    "fileName": "1792695898600.png",
+    "size": 488125,
+    "url": "${appResourceUrl}/images/widget_5/1792695898600.png",
+    "created": 1792695898600,
+    "resourcesPrefix": "images/widget_5",
+    "referredIds": [],
+    "originId": "1792695898600",
+    "fileFormat": "image/png",
+    "originalWidth": 2648,
+    "originalHeight": 1778
+  },
+  "1792695964146": {
+    "originalName": "AGOL_Structurebackgroundr emoes.png",
+    "fileName": "1792695964146.png",
+    "size": 536892,
+    "url": "${appResourceUrl}/images/widget_6/1792695964146.png",
+    "created": 1792695964146,
+    "resourcesPrefix": "images/widget_6",
+    "referredIds": [],
+    "originId": "1792695964146",
+    "fileFormat": "image/png",
+    "originalWidth": 2648,
+    "originalHeight": 1778
+  }
+}

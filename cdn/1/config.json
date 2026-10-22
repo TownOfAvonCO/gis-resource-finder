@@ -1,0 +1,404 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0",
+        "SMALL": "layout_3"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_8",
+          "bbox": {
+            "left": "88.0%",
+            "right": "6.3%",
+            "top": "4.0%",
+            "bottom": "89.7%",
+            "width": "5.7%",
+            "height": "6.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "2"
+      ]
+    },
+    "layout_1": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {
+            "left": "2.7%",
+            "right": "6.1%",
+            "top": "1.0%",
+            "bottom": "0.0%",
+            "width": "91.2%",
+            "height": "99.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
+    },
+    "layout_2": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {
+            "left": "2.8%",
+            "right": "2.8%",
+            "top": "13.1%",
+            "bottom": "43.3%",
+            "width": "94.4%",
+            "height": "43.6%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
+    },
+    "layout_3": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_8",
+          "bbox": {
+            "left": "88.0%",
+            "right": "6.3%",
+            "top": "4.0%",
+            "bottom": "89.7%",
+            "width": "5.7%",
+            "height": "6.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": true
+        }
+      },
+      "order": [
+        "0",
+        "2"
+      ]
+    }
+  },
+  "exbVersion": "1.21.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/master/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_2": {
+      "uri": "widgets/gis-resource-finder/",
+      "version": "1.0.0",
+      "label": "GIS Resource Finder",
+      "config": {
+        "resultLimit": 250,
+        "showFilters": true
+      },
+      "id": "widget_2",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-2",
+          "mainDataSourceId": "dataSource_1-2",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_6": {
+      "uri": "widgets/common/image/",
+      "version": "1.21.0",
+      "label": "Image",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_6/1792695964146.png",
+            "originalUrl": "${appResourceUrl}/images/widget_6/1792695964146.png",
+            "fileName": "1792695964146.png",
+            "originalName": "AGOL_Structurebackgroundr emoes.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1792695964146",
+            "originalWidth": 2648,
+            "originalHeight": 1778
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_6"
+    },
+    "widget_8": {
+      "uri": "widgets/common/button/",
+      "version": "1.21.0",
+      "label": "Button",
+      "config": {
+        "functionConfig": {
+          "text": "",
+          "textExpression": null,
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6.5 7.5A.5.5 0 0 1 7 7h1.5v4.5h1a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1h1V8H7a.5.5 0 0 1-.5-.5\"></path><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16m0-1A7 7 0 1 0 8 1a7 7 0 0 0 0 14\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "Info",
+                "originalName": "outlined/suggested/info.svg",
+                "path": [
+                  "generalAndArrows",
+                  "info"
+                ],
+                "inlineSvg": true,
+                "isUploaded": false,
+                "color": "var(--ref-palette-neutral-1100)"
+              }
+            },
+            "position": "LEFT"
+          },
+          "linkParam": {
+            "linkType": "DIALOG",
+            "value": "dialog_1"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {
+              "enableDynamicStyle": false
+            },
+            "regular": {
+              "enableDynamicStyle": false,
+              "background": {
+                "color": "rgba(215,64,52,0)",
+                "fillType": "fill"
+              },
+              "iconProps": {
+                "size": 30,
+                "color": "var(--ref-palette-neutral-1300)"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_8",
+      "useDataSources": []
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {
+    "dialog_1": {
+      "id": "dialog_1",
+      "mode": "FIXED",
+      "blockPage": true,
+      "sizeMode": {
+        "LARGE": {
+          "widthMode": "CUSTOM",
+          "heightMode": "CUSTOM",
+          "width": "915px",
+          "height": "566px",
+          "position": "MIDDLE_CENTER"
+        },
+        "SMALL": {
+          "widthMode": "CUSTOM",
+          "heightMode": "CUSTOM",
+          "width": "824px",
+          "height": "510px",
+          "position": "MIDDLE_CENTER"
+        }
+      },
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
+      "dialogBackground": {
+        "color": "rgba(215,64,52,0)",
+        "fillType": "fill",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": "#000000",
+      "layout": {
+        "LARGE": "layout_1",
+        "SMALL": "layout_2"
+      },
+      "index": 0,
+      "isSplash": false,
+      "border": {
+        "color": "var(--sys-color-divider-secondary)",
+        "type": "solid",
+        "width": "2px"
+      },
+      "label": "Window",
+      "closeWhenClickOverlay": true,
+      "textColor": "#000",
+      "boxShadow": {
+        "presetStyle": "shadow-3"
+      }
+    }
+  },
+  "messageConfigs": {},
+  "attributes": {
+    "portalUrl": "https://AVON-COLORADO.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "express": false,
+    "title": "GIS Resource Finder",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
+  },
+  "timestamp": 1792696244974,
+  "sharedThemeVariables": {
+    "header": {
+      "bg": "#ffffff",
+      "color": "#383a34"
+    },
+    "body": {
+      "color": "#383a34",
+      "link": "#016473"
+    },
+    "button": {
+      "bg": "#016473",
+      "color": "#ffffff"
+    }
+  },
+  "mainLocale": "en-us",
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "FEATURE_SERVICE",
+      "sourceLabel": "Town of Avon GIS Resource Catalog",
+      "itemId": "ffc47cb997954ef08da740583506d61c",
+      "portalUrl": "https://AVON-COLORADO.maps.arcgis.com",
+      "url": "https://services3.arcgis.com/kQJrz0VPtbNiqAV4/arcgis/rest/services/Town_of_Avon_GIS_Resource_Catalog/FeatureServer"
+    }
+  },
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "publishTimestamp": 1792696256719
+}
