@@ -360,16 +360,9 @@
   },
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://AVON-COLORADO.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "GIS Resource Finder",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://AVON-COLORADO.maps.arcgis.com"
   },
-  "timestamp": 1792696244974,
+  "timestamp": 1793749370481,
   "sharedThemeVariables": {
     "header": {
       "bg": "#ffffff",
@@ -400,5 +393,13 @@
       "page_0": []
     }
   ],
-  "publishTimestamp": 1792696256719
+  "analytics": {
+    "enable": true,
+    "google": {
+      "measurementId": "G-QFNPR4GCEG"
+    }
+  },
+  "cookieBanner": {
+    "uid": "448662e0-d7e0-11f1-bb99-19f2399d1a96"
+  }
 }
